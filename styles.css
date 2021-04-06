@@ -1,0 +1,103 @@
+*{
+
+margin:0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+
+	font-family: 'Permanent Marker', cursive;
+	background-image:
+	background-size:cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+
+.app{
+
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+
+}
+
+header h1{
+
+text-align: center;
+font-size: 40px;
+margin: 50px 0px 30px 0px;
+
+}
+header p{
+
+	font-size: 20px;
+}
+
+/*.visual{
+
+	background-color: pink;
+
+}
+*/
+.pads{
+    display: flex;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+ 
+	/*background-color: pink;*/
+	
+}
+
+.pads > div{
+
+width:100px;
+height: 60px;
+flex:1;
+}
+
+.pad1{
+
+	background-color: #9999ff;
+	
+}
+
+.pad1:hover, .pad3:hover,.pad5:hover{
+
+	background-color: #3232ff;
+}
+
+.pad2{
+
+	background-color:#ccccff;
+	
+}
+
+.pad3{
+
+	background-color: #9999ff;
+	
+}
+
+.pad4{
+
+	background-color:#ccccff;
+	
+}
+
+.pad5{
+
+	background-color: #9999ff;
+
+}
+
+.pad6{
+
+	background-color: #ccccff;
+	
+}
